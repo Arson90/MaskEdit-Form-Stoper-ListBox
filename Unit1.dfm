@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 1558
-  Top = 216
+  Left = 257
+  Top = 124
   Width = 1026
   Height = 624
   Caption = 'Form1'
@@ -17,10 +17,10 @@ object Form1: TForm1
     Left = 0
     Top = 0
     Width = 1010
-    Height = 585
-    ActivePage = TabSheet3
+    Height = 566
+    ActivePage = TabSheet4
     Align = alClient
-    TabIndex = 2
+    TabIndex = 3
     TabOrder = 0
     OnChange = PageControl1Change
     object TabSheet1: TTabSheet
@@ -200,18 +200,6 @@ object Form1: TForm1
         Font.Style = [fsBold]
         ParentFont = False
       end
-      object StatusBar1: TStatusBar
-        Left = 0
-        Top = 538
-        Width = 1002
-        Height = 19
-        Panels = <
-          item
-            Text = 'Aktywna strona:'
-            Width = 50
-          end>
-        SimplePanel = False
-      end
       object MaskEdit1: TMaskEdit
         Left = 744
         Top = 80
@@ -219,7 +207,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '9999999999;1;_'
         MaxLength = 10
-        TabOrder = 1
+        TabOrder = 0
         Text = '          '
       end
       object MaskEdit2: TMaskEdit
@@ -229,7 +217,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '>L<>lllllllll;1;_'
         MaxLength = 10
-        TabOrder = 2
+        TabOrder = 1
         Text = '          '
       end
       object MaskEdit3: TMaskEdit
@@ -239,7 +227,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '!\(999\)000-00-00;1;_'
         MaxLength = 14
-        TabOrder = 3
+        TabOrder = 2
         Text = '(   )   -  -  '
       end
       object MaskEdit4: TMaskEdit
@@ -249,7 +237,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '!99/99/00;1;_'
         MaxLength = 8
-        TabOrder = 4
+        TabOrder = 3
         Text = '  -  -  '
       end
       object MaskEdit5: TMaskEdit
@@ -259,7 +247,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '!90:00;1;_'
         MaxLength = 5
-        TabOrder = 5
+        TabOrder = 4
         Text = '  :  '
       end
       object MaskEdit6: TMaskEdit
@@ -269,7 +257,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '00/000;1;_'
         MaxLength = 6
-        TabOrder = 6
+        TabOrder = 5
         Text = '  -   '
       end
       object MaskEdit7: TMaskEdit
@@ -279,7 +267,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '99999999999;1;_'
         MaxLength = 11
-        TabOrder = 7
+        TabOrder = 6
         Text = '           '
       end
     end
@@ -442,18 +430,6 @@ object Form1: TForm1
         Font.Style = []
         ParentFont = False
       end
-      object StatusBar2: TStatusBar
-        Left = 0
-        Top = 538
-        Width = 1002
-        Height = 19
-        Panels = <
-          item
-            Text = 'Aktywna strona:'
-            Width = 50
-          end>
-        SimplePanel = False
-      end
       object MaskEdit8: TMaskEdit
         Left = 80
         Top = 80
@@ -461,7 +437,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '>L<>llllllllll;1;_'
         MaxLength = 11
-        TabOrder = 1
+        TabOrder = 0
         Text = '           '
       end
       object MaskEdit9: TMaskEdit
@@ -471,7 +447,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '>L<>llllllllll;1;_'
         MaxLength = 11
-        TabOrder = 2
+        TabOrder = 1
         Text = '           '
       end
       object MaskEdit10: TMaskEdit
@@ -481,7 +457,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '!99/99/0000;1;_'
         MaxLength = 10
-        TabOrder = 3
+        TabOrder = 2
         Text = '  -  -    '
       end
       object MaskEdit11: TMaskEdit
@@ -491,7 +467,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '>L<>llllllllll;1;_'
         MaxLength = 11
-        TabOrder = 4
+        TabOrder = 3
         Text = '           '
       end
       object MaskEdit12: TMaskEdit
@@ -501,7 +477,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '9999;1;_'
         MaxLength = 4
-        TabOrder = 5
+        TabOrder = 4
         Text = '    '
       end
       object MaskEdit13: TMaskEdit
@@ -511,7 +487,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '9999;1;_'
         MaxLength = 4
-        TabOrder = 6
+        TabOrder = 5
         Text = '    '
       end
       object MaskEdit14: TMaskEdit
@@ -521,7 +497,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '>L<>llllllllll;1;_'
         MaxLength = 11
-        TabOrder = 7
+        TabOrder = 6
         Text = '           '
       end
       object MaskEdit15: TMaskEdit
@@ -531,7 +507,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '00/000;1;_'
         MaxLength = 6
-        TabOrder = 8
+        TabOrder = 7
         Text = '  -   '
       end
       object MaskEdit16: TMaskEdit
@@ -541,7 +517,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '!\(999\)000-000-000;1;_'
         MaxLength = 16
-        TabOrder = 9
+        TabOrder = 8
         Text = '(   )   -   -   '
       end
       object MaskEdit17: TMaskEdit
@@ -551,7 +527,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '>L<>llllllllll;1;_'
         MaxLength = 11
-        TabOrder = 10
+        TabOrder = 9
         Text = '           '
       end
       object MaskEdit18: TMaskEdit
@@ -561,7 +537,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '>L;1;_'
         MaxLength = 1
-        TabOrder = 11
+        TabOrder = 10
         Text = ' '
       end
     end
@@ -609,18 +585,6 @@ object Form1: TForm1
         Font.Style = []
         ParentFont = False
       end
-      object StatusBar3: TStatusBar
-        Left = 0
-        Top = 538
-        Width = 1002
-        Height = 19
-        Panels = <
-          item
-            Text = 'Aktywna strona:'
-            Width = 50
-          end>
-        SimplePanel = False
-      end
       object Button1: TButton
         Left = 384
         Top = 288
@@ -633,7 +597,7 @@ object Form1: TForm1
         Font.Name = 'MS Sans Serif'
         Font.Style = []
         ParentFont = False
-        TabOrder = 1
+        TabOrder = 0
         OnClick = Button1Click
       end
       object Button2: TButton
@@ -648,7 +612,7 @@ object Form1: TForm1
         Font.Name = 'MS Sans Serif'
         Font.Style = []
         ParentFont = False
-        TabOrder = 2
+        TabOrder = 1
         OnClick = Button2Click
       end
       object MaskEdit19: TMaskEdit
@@ -658,7 +622,7 @@ object Form1: TForm1
         Height = 21
         EditMask = '99999;1;_'
         MaxLength = 5
-        TabOrder = 3
+        TabOrder = 2
         Text = '     '
         OnChange = MaskEdit19Change
       end
@@ -666,19 +630,87 @@ object Form1: TForm1
     object TabSheet4: TTabSheet
       Caption = 'ListBox'
       ImageIndex = 3
-      object StatusBar4: TStatusBar
-        Left = 0
-        Top = 538
-        Width = 1002
-        Height = 19
-        Panels = <
-          item
-            Text = 'Aktywna strona:'
-            Width = 50
-          end>
-        SimplePanel = False
+      object Label29: TLabel
+        Left = 304
+        Top = 224
+        Width = 240
+        Height = 20
+        Caption = 'Enter the next  element of the list'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+      object Label30: TLabel
+        Left = 376
+        Top = 544
+        Width = 38
+        Height = 13
+        Caption = 'Label30'
+      end
+      object Label31: TLabel
+        Left = 632
+        Top = 192
+        Width = 123
+        Height = 20
+        Caption = 'or Press ENTER'
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+      end
+      object ListBox1: TListBox
+        Left = 32
+        Top = 32
+        Width = 257
+        Height = 209
+        ItemHeight = 13
+        TabOrder = 0
+        OnClick = ListBox1Click
+      end
+      object Edit1: TEdit
+        Left = 304
+        Top = 192
+        Width = 241
+        Height = 21
+        TabOrder = 1
+        OnKeyPress = Edit1KeyPress
+      end
+      object Button3: TButton
+        Left = 552
+        Top = 192
+        Width = 75
+        Height = 25
+        Caption = 'Add element'
+        TabOrder = 2
+        OnClick = Button3Click
+      end
+      object Button4: TButton
+        Left = 120
+        Top = 248
+        Width = 75
+        Height = 25
+        Caption = 'Delete'
+        TabOrder = 3
+        OnClick = Button4Click
       end
     end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 566
+    Width = 1010
+    Height = 19
+    Panels = <
+      item
+        Text = 'Active Page:'
+        Width = 50
+      end>
+    SimplePanel = False
   end
   object Timer1: TTimer
     OnTimer = Timer1Timer

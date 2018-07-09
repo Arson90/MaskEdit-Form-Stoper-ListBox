@@ -20,9 +20,6 @@ __published:	// IDE-managed Components
         TTabSheet *TabSheet3;
         TStatusBar *StatusBar1;
         TTabSheet *TabSheet4;
-        TStatusBar *StatusBar2;
-        TStatusBar *StatusBar3;
-        TStatusBar *StatusBar4;
         TLabel *Label1;
         TLabel *Label2;
         TLabel *Label3;
@@ -73,11 +70,22 @@ __published:	// IDE-managed Components
         TMaskEdit *MaskEdit19;
         TLabel *Label27;
         TLabel *Label28;
+        TListBox *ListBox1;
+        TEdit *Edit1;
+        TLabel *Label29;
+        TButton *Button3;
+        TButton *Button4;
+        TLabel *Label30;
+        TLabel *Label31;
         void __fastcall PageControl1Change(TObject *Sender);
         void __fastcall Timer1Timer(TObject *Sender);
         void __fastcall Button1Click(TObject *Sender);
         void __fastcall Button2Click(TObject *Sender);
         void __fastcall MaskEdit19Change(TObject *Sender);
+        void __fastcall Button3Click(TObject *Sender);
+        void __fastcall ListBox1Click(TObject *Sender);
+        void __fastcall Button4Click(TObject *Sender);
+        void __fastcall Edit1KeyPress(TObject *Sender, char &Key);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);
